@@ -1,5 +1,5 @@
 {
-    "name": "thanhtaivtt/laravel-telegram-logger",
+    "name": "thanhtaivtt/laravel-telegram-logger1",
     "description": "Laravel Send error log to Telegram Bot, Channel",
     "type": "library",
     "require": {
