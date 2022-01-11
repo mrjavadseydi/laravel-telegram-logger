@@ -23,7 +23,7 @@ use \Thanhtaivtt\TelegramLogger\Contracts\LoggerData;
  */
 class TelegramLogHandler extends AbstractProcessingHandler
 {
-    private const BOT_API = 'https://api.telegram.org/bot';
+    private const BOT_API = env('TELEGRAM_END_POINT','https://api.telegram.org/bot');;
 
     /**
      * @var LoggerData
